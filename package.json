@@ -1,0 +1,13 @@
+{
+  "name": "jupyterhub",
+  "version": "2.2.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\"",
+    "build": "./dockerfile/build.sh jupyterhub"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
