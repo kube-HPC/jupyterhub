@@ -246,7 +246,7 @@ c.JupyterHub.authenticator_class = 'jupyterhub.auth.DummyAuthenticator'
 #  
 #      c.JupyterHub.default_url = default_url_fn
 #  Default: traitlets.Undefined
-# c.JupyterHub.default_url = traitlets.Undefined
+c.JupyterHub.default_url = "hub/home"
 
 ## Dict authority:dict(files). Specify the key, cert, and/or
 #          ca file for an authority. This is useful for externally managed
@@ -563,7 +563,6 @@ c.JupyterHub.authenticator_class = 'jupyterhub.auth.DummyAuthenticator'
 #    - default: jupyterhub.proxy.ConfigurableHTTPProxy
 #  Default: 'jupyterhub.proxy.ConfigurableHTTPProxy'
 # c.JupyterHub.proxy_class = 'jupyterhub.proxy.ConfigurableHTTPProxy'
-
 ## DEPRECATED since version 0.8. Use ConfigurableHTTPProxy.command
 #  Default: []
 # c.JupyterHub.proxy_cmd = []
